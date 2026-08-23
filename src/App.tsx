@@ -1,6 +1,5 @@
-import React from 'react';
 import { TarjetaTramite } from './components/TarjetaTramite';
-import { Droplets, Trash2, Lightbulb, Building2, PhoneCall, ShieldCheck } from 'lucide-react';
+import { Droplets, Trash2, Lightbulb, Building2, ShieldCheck } from 'lucide-react';
 
 export function App() {
   const tramites = [
