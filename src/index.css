@@ -1,0 +1,380 @@
+:root {
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Institutional Blue Color Palette */
+  --azul-institucional: #003399;
+  --azul-institucional-hover: #002266;
+  --azul-institucional-light: #e6eefa;
+  --azul-institucional-border: #b3ccff;
+  
+  --bg-principal: #f8fafc;
+  --bg-card: #ffffff;
+  
+  --texto-titulo: #0f172a;
+  --texto-cuerpo: #334155;
+  --texto-mutado: #64748b;
+  
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05);
+  --shadow-card: 0 4px 20px -2px rgba(0, 51, 153, 0.08);
+  --shadow-card-hover: 0 12px 28px -4px rgba(0, 51, 153, 0.16);
+  
+  --radius-card: 14px;
+  --radius-badge: 9999px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-principal);
+  color: var(--texto-cuerpo);
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  width: 100%;
+}
+
+/* Institutional Header Bar */
+.top-bar {
+  background-color: var(--azul-institucional-hover);
+  color: #ffffff;
+  padding: 0.5rem 0;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.top-bar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-bar-tag {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.header-institucional {
+  background-color: var(--azul-institucional);
+  color: #ffffff;
+  padding: 1.5rem 0;
+  box-shadow: 0 4px 12px rgba(0, 51, 153, 0.2);
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.escudo-brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo-escudo {
+  width: 50px;
+  height: 50px;
+  background: #ffffff;
+  color: var(--azul-institucional);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.titulo-institucional-header {
+  font-size: 1.4rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+  margin: 0;
+}
+
+.subtitulo-header {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.85);
+  font-weight: 400;
+}
+
+/* Hero Institutional Banner */
+.hero-institucional {
+  background: linear-gradient(135deg, #003399 0%, #001f5c 100%);
+  color: #ffffff;
+  padding: 3rem 0 3.5rem;
+  text-align: center;
+  position: relative;
+}
+
+.hero-institucional::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 12px;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--azul-institucional),
+    var(--azul-institucional) 20px,
+    #ffffff 20px,
+    #ffffff 40px
+  );
+  opacity: 0.15;
+}
+
+.badge-gobierno {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 0.4rem 1.1rem;
+  border-radius: var(--radius-badge);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 1.25rem;
+}
+
+.hero-titulo {
+  font-size: 2.75rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  letter-spacing: -0.02em;
+}
+
+.hero-bajada {
+  font-size: 1.15rem;
+  color: rgba(255, 255, 255, 0.9);
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+/* Section Title "Respuestas" */
+.seccion-respuestas {
+  padding: 3.5rem 0 4rem;
+  flex: 1;
+}
+
+.encabezado-seccion {
+  margin-bottom: 2.5rem;
+  position: relative;
+}
+
+.titulo-respuestas {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: var(--texto-titulo);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.titulo-respuestas::before {
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 36px;
+  background-color: var(--azul-institucional);
+  border-radius: 4px;
+}
+
+.subtitulo-respuestas {
+  color: var(--texto-mutado);
+  font-size: 1.05rem;
+  margin-top: 0.4rem;
+  margin-left: 1.25rem;
+}
+
+/* Grid of Cards - 3 Columns Layout */
+.grid-tarjetas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+/* TarjetaTramite Styling */
+.tarjeta-tramite {
+  background-color: var(--bg-card);
+  border: 1px solid rgba(0, 51, 153, 0.12);
+  border-top: 4px solid var(--azul-institucional);
+  border-radius: var(--radius-card);
+  padding: 2rem 1.75rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--shadow-card);
+  transition: all 0.3s ease;
+}
+
+.tarjeta-tramite:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-card-hover);
+  border-color: var(--azul-institucional-border);
+}
+
+.tarjeta-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+
+.tarjeta-categoria {
+  background-color: var(--azul-institucional-light);
+  color: var(--azul-institucional);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 0.35rem 0.85rem;
+  border-radius: var(--radius-badge);
+}
+
+.tarjeta-icono {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  background-color: var(--azul-institucional-light);
+  color: var(--azul-institucional);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+}
+
+.tarjeta-titulo {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--texto-titulo);
+  margin-bottom: 0.75rem;
+  line-height: 1.3;
+}
+
+.tarjeta-descripcion {
+  font-size: 0.98rem;
+  color: var(--texto-cuerpo);
+  line-height: 1.6;
+  margin-bottom: 1.75rem;
+  flex-grow: 1;
+}
+
+.tarjeta-footer {
+  margin-top: auto;
+}
+
+.btn-tramite {
+  width: 100%;
+  padding: 0.8rem 1.25rem;
+  background-color: var(--azul-institucional);
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.92rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.btn-tramite:hover {
+  background-color: var(--azul-institucional-hover);
+}
+
+.btn-tramite:active {
+  transform: scale(0.99);
+}
+
+/* Footer */
+.footer-institucional {
+  background-color: var(--azul-institucional-hover);
+  color: #ffffff;
+  padding: 2.5rem 0 1.5rem;
+  margin-top: auto;
+  border-top: 4px solid var(--azul-institucional);
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.footer-brand {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.footer-copy {
+  text-align: center;
+  padding-top: 1.25rem;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 992px) {
+  .grid-tarjetas {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .grid-tarjetas {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .hero-titulo {
+    font-size: 2rem;
+  }
+
+  .titulo-respuestas {
+    font-size: 1.75rem;
+  }
+
+  .header-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .tarjeta-tramite {
+    padding: 1.5rem;
+  }
+}
