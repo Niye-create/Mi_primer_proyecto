@@ -1,0 +1,102 @@
+[
+  {
+    "id": "RAD-2026-001",
+    "solicitante": "María Elena Gómez",
+    "categoria": "Agua y Alcantarillado",
+    "descripcion": "Fuga de agua potable en la vía principal frente a la manzana 4 casa 12, generando baja presión en el sector.",
+    "estado": "Resuelto",
+    "fechaRadicacion": "2026-08-05",
+    "plazoLegal": "2026-08-20",
+    "respuestaOficial": "Cuadrilla técnica N° 3 reparó la tubería matriz de 2 pulgadas el 08/08/2026. Presión restablecida a niveles normales."
+  },
+  {
+    "id": "RAD-2026-002",
+    "solicitante": "Carlos Alberto Restrepo",
+    "categoria": "Recolección de Basura",
+    "descripcion": "Acumulación de residuos sólidos y escombros en la esquina del parque central tras no paso del camión recolector.",
+    "estado": "Resuelto",
+    "fechaRadicacion": "2026-08-07",
+    "plazoLegal": "2026-08-22",
+    "respuestaOficial": "Se envió vehículo compactador de refuerzo y brigada de barrido. Se normalizó la frecuencia de recolección para martes y sábados."
+  },
+  {
+    "id": "RAD-2026-003",
+    "solicitante": "Lucía Fernández Morales",
+    "categoria": "Alumbrado Público",
+    "descripcion": "Lámpara de poste apagada desde hace dos semanas en la Carrera 15 con Calle 8, generando inseguridad peatonal nocturna.",
+    "estado": "En trámite",
+    "fechaRadicacion": "2026-08-15",
+    "plazoLegal": "2026-08-30",
+    "respuestaOficial": "Solicitud asignada al consorcio de alumbrado. Programada inspección y cambio de luminaria LED para el 25/08/2026."
+  },
+  {
+    "id": "RAD-2026-004",
+    "solicitante": "Jorge Eduardo Ramírez",
+    "categoria": "Agua y Alcantarillado",
+    "descripcion": "Tapa de alcantarilla fracturada en intersección vehicular con riesgo inminente de accidentes para ciclistas y vehículos.",
+    "estado": "Resuelto",
+    "fechaRadicacion": "2026-08-02",
+    "plazoLegal": "2026-08-17",
+    "respuestaOficial": "Se instaló nueva tapa de hierro dúctil de alta resistencia el 04/08/2026. Vía despejada y segura."
+  },
+  {
+    "id": "RAD-2026-005",
+    "solicitante": "Esperanza Pineda Vargas",
+    "categoria": "Recolección de Basura",
+    "descripcion": "Punto crítico de basuras en zona verde del barrio Los Pinos por disposición indebida en horarios no autorizados.",
+    "estado": "En trámite",
+    "fechaRadicacion": "2026-08-18",
+    "plazoLegal": "2026-09-02",
+    "respuestaOficial": "En proceso de programación de jornada de limpieza ambiental e instalación de señalización preventiva y comparendo ambiental."
+  },
+  {
+    "id": "RAD-2026-006",
+    "solicitante": "Andrés Felipe Mendoza",
+    "categoria": "Alumbrado Público",
+    "descripcion": "Poste inclinado con cables expuestos por choque vehicular en la Avenida Circunvalar # 23-45.",
+    "estado": "Resuelto",
+    "fechaRadicacion": "2026-08-01",
+    "plazoLegal": "2026-08-16",
+    "respuestaOficial": "Intervención prioritaria de emergencia: se retiró poste afectado, se instaló nuevo poste de concreto y se reubicó el cableado."
+  },
+  {
+    "id": "RAD-2026-007",
+    "solicitante": "Gloria Patricia Castro",
+    "categoria": "Agua y Alcantarillado",
+    "descripcion": "Rebose de aguas residuales en sumidero durante días de lluvia intensa en el sector La Pradera.",
+    "estado": "En trámite",
+    "fechaRadicacion": "2026-08-19",
+    "plazoLegal": "2026-09-03",
+    "respuestaOficial": "Programado mantenimiento con equipo hidrosuccionador (Vactor) para sondeo y descolmatación de la red matriz."
+  },
+  {
+    "id": "RAD-2026-008",
+    "solicitante": "Roberto Hernández Soto",
+    "categoria": "Alumbrado Público",
+    "descripcion": "Circuito completo de 6 luminarias intermitentes en el sendero peatonal del barrio El Recreo.",
+    "estado": "Resuelto",
+    "fechaRadicacion": "2026-08-06",
+    "plazoLegal": "2026-08-21",
+    "respuestaOficial": "Se identificó y corrigió cortocircuito en caja de derivación subterránea. Luminarias operativas al 100%."
+  },
+  {
+    "id": "RAD-2026-009",
+    "solicitante": "Claudia Marcela Benítez",
+    "categoria": "Recolección de Basura",
+    "descripcion": "Solicitud de instalación de contenedores comunitarios y clarificación de horarios de recolección para zona comercial.",
+    "estado": "En trámite",
+    "fechaRadicacion": "2026-08-20",
+    "plazoLegal": "2026-09-04",
+    "respuestaOficial": "En estudio técnico de aforo de residuos para determinar viabilidad de ubicación de dos contenedores de 1.100 litros."
+  },
+  {
+    "id": "RAD-2026-010",
+    "solicitante": "Fernando Alonso Rivas",
+    "categoria": "Agua y Alcantarillado",
+    "descripcion": "Corte de suministro imprevisto sin aviso previo en la Urbanización San Francisco durante más de 8 horas.",
+    "estado": "Resuelto",
+    "fechaRadicacion": "2026-08-04",
+    "plazoLegal": "2026-08-19",
+    "respuestaOficial": "El corte obedeció a daño fortuito por obras de terceros. Se suministró agua mediante carrotanque y se restableció el servicio a las 18:00 horas."
+  }
+]

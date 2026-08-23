@@ -8,6 +8,7 @@ export interface TarjetaTramiteProps {
   Descripcion?: string;
   Categoria?: string;
   icono?: React.ReactNode;
+  onAccion?: () => void;
 }
 
 export const TarjetaTramite: React.FC<TarjetaTramiteProps> = (props) => {
@@ -24,7 +25,11 @@ export const TarjetaTramite: React.FC<TarjetaTramiteProps> = (props) => {
       <h3 className="tarjeta-titulo">{titulo}</h3>
       <p className="tarjeta-descripcion">{descripcion}</p>
       <div className="tarjeta-footer">
-        <button className="btn-tramite">
+        <button 
+          className="btn-tramite" 
+          onClick={props.onAccion}
+          type="button"
+        >
           Ver reporte / Solicitud →
         </button>
       </div>
